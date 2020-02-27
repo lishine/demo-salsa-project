@@ -1,0 +1,20 @@
+type Image {
+  id: ID! @unique
+  url: String!
+  contentType: String
+  name: String
+  size: Int
+}
+
+type Profile {
+  id: ID! @unique
+  name: String!
+  includePrivateContributions: Boolean!
+  availableForHire: Boolean!
+  publicEmail: String!
+  bio: String!
+  url: String!
+  company: String!
+  location: String!
+  picture: Json
+}

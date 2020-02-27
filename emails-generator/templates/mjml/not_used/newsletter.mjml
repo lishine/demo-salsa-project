@@ -1,0 +1,45 @@
+<mjml>
+
+  <mj-head>
+    <mj-title>Parediso Online News and Exclusive Offers</mj-title>
+
+    <mj-include path="./_head.mjml" />
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <mj-wrapper css-class="wrapper">
+
+      <!-- HEADER -->
+      <mj-section css-class="header">
+        <mj-column width="500px">
+          <mj-image css-class="logo" src="https://i.imgur.com/JLTDexC.png" align="left" width="152px" alt="Paradiso Online Logo" />
+        </mj-column>
+        <mj-column width="100px">
+          <mj-image css-class="header__icon" src="https://i.imgur.com/P3v8PRb.png" align="left" width="68px" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- BODY -->
+      <mj-section css-class="section" padding-bottom="31px">
+        <mj-column>
+          <mj-text>
+            <h1 class="title">Get Your New Free Lesson</h1>
+          </mj-text>
+          <mj-image css-class="img" src="https://i.imgur.com/jTGdTQD.jpg" alt="" />
+          <mj-text>
+            <p class="p"><strong>Hi, [[=it.name]]!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora quibusdam doloribus facilis pariatur voluptates velit laborum porro, nisi aperiam eveniet, facere, assumenda natus eaque modi magni quis quae placeat?</p>
+            <p class="p">Animi nam, at molestiae quo molestias perferendis nostrum exercitationem natus aperiam unde quibusdam rerum nisi illo, aliquam magnam consequuntur doloremque vero explicabo non obcaecati nesciunt. Nostrum error blanditiis laboriosam tenetur!</p>
+            <p class="p">Optio reiciendis fuga distinctio aut provident qui. Voluptatum, omnis unde. Reprehenderit rem maiores enim, quod, placeat architecto et facere similique ipsum repudiandae, iusto dignissimos nam eveniet ad saepe quis. Iure!</p>
+            <a class="btn is-highlight" href="[[=it.link]]">Get Free Lesson</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <!-- FOOTER -->
+    <mj-include path="./_footer.mjml" />
+
+  </mj-body>
+
+</mjml>

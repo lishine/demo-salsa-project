@@ -1,0 +1,45 @@
+{
+    "name": "demo1-api",
+    "version": "1.0.0",
+    "main": "sec/index.js",
+    "scripts": {
+        "dev": "cp ../.env . && nodemon --watch src -r ./node_modules/dotenv/config --exec babel-node src/index.js ; rm .env",
+        "build": "rm -rf dist && babel ./src --out-dir dist",
+        "eslint": "eslint"
+    },
+    "author": "Pavel Ravits",
+    "license": "ISC",
+    "dependencies": {
+        "@paypal/checkout-server-sdk": "^1.0.0",
+        "camelize": "^1.0.0",
+        "form-data": "^2.3.3",
+        "isomorphic-unfetch": "latest",
+        "jwt-simple": "^0.5.1",
+        "lodash": "^4.17.11",
+        "micro": "latest",
+        "micro-cors": "^0.1.1",
+        "micro-fork": "^0.1.1",
+        "nookies": "^1.2.0",
+        "path": "^0.12.7",
+        "prop-types": "^15.6.2",
+        "pwd": "^1.1.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-proposal-class-properties": "^7.2.3",
+        "@babel/plugin-proposal-export-default-from": "^7.2.0",
+        "@babel/plugin-syntax-export-default-from": "^7.2.0",
+        "@babel/preset-env": "^7.2.3",
+        "@babel/preset-react": "^7.0.0",
+        "@emotion/babel-preset-css-prop": "^10.0.5",
+        "babel-core": "^6.26.3",
+        "babel-plugin-emotion": "^10.0.5",
+        "babel-plugin-module-resolver": "^3.1.1",
+        "dotenv": "^6.2.0",
+        "fs-extra": "^7.0.1",
+        "nodemon": "^1.18.4",
+        "opn": "^5.4.0"
+    }
+}

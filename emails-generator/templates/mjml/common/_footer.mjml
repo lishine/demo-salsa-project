@@ -1,0 +1,26 @@
+<mj-section padding="56px 16px 88px">
+
+  <mj-column>
+    <mj-text>
+      <p class="footer" style="text-transform: uppercase">
+        Follow us:
+      </p>
+    </mj-text>
+
+    <mj-social>
+      <mj-social-element name="_facebook" src="https://i.imgur.com/I2495rt.png" href="[[=it.facebookLink]]" background-color="#f2f2f2" icon-size="32px" padding="8px" alt="Facebook" />
+      <mj-social-element name="instagram" src="https://i.imgur.com/223e1rD.png" href="[[=it.instagramLink]]" background-color="#f2f2f2" icon-size="32px" padding="8px" alt="Instagram" />
+      <mj-social-element name="youtube" src="https://i.imgur.com/Cn94MZ9.png" href="[[=it.youtubeLink]]" background-color="#f2f2f2" icon-size="32px" padding="8px" alt="YouTube" />
+    </mj-social>
+
+    <mj-text>
+      <p class="footer">
+        Copyright © Paradiso Academy 2019<br>
+        <a href="[[=it.domain]]/privacy-policy">Privacy Policy</a> | <a href="[[=it.domain]]/terms">Terms of Use</a>
+      </p>
+    </mj-text>
+
+
+  </mj-column>
+
+</mj-section>

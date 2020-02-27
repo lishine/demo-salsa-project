@@ -1,0 +1,17 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Image {
+  contentType: String
+  name: String
+  size: Int
+  url: String!
+}
+
+type Photo {
+  image : Image!
+  title: String
+  publishedDate: DateTime
+}

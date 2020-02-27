@@ -1,0 +1,28 @@
+{
+    "name": "demo1-content-generator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node index.js"
+    },
+    "author": "Pavel Ravits",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^4.1.0",
+        "datocms-client": "^0.8.11",
+        "fs-extra": "^7.0.1",
+        "lodash": "^4.17.11",
+        "nodemon": "^1.18.4",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.2.2",
+        "@babel/node": "^7.2.2",
+        "@babel/plugin-proposal-class-properties": "^7.2.3",
+        "@babel/plugin-proposal-export-default-from": "^7.2.0",
+        "@babel/plugin-syntax-export-default-from": "^7.2.0",
+        "@babel/preset-env": "^7.2.3",
+        "babel-plugin-module-resolver": "^3.1.1"
+    }
+}

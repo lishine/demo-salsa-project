@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /privacy-policy
+Disallow: /terms
+Disallow: /my-course
+Disallow: /my-profile
+Noindex: /my-profile
+Noindex: /my-course
+Noindex: /privacy-policy
+Noindex: /terms
+Sitemap: https://domain/sitemap.txt

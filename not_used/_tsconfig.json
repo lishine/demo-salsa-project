@@ -1,0 +1,20 @@
+{
+	"compileOnSave": true,
+    "compilerOptions": {
+		"outDir": "./dist",
+        "baseUrl": "./",
+		"paths": {},
+		"allowJs": true,
+		"module": "CommonJS",
+		"target": "ES6",
+		"watch": true
+    },
+    "include": [
+        "./**/*.js"
+	],
+	"exclude": [
+        "dist",
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

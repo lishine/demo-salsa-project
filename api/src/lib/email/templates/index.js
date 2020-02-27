@@ -1,0 +1,5 @@
+export { default as freeLessons } from './freeLessons'
+export { default as newPassword } from './newPassword'
+export { default as passwordChanged } from './passwordChanged'
+export { default as register } from './register'
+export { default as contactUs } from './contactUs'

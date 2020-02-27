@@ -1,0 +1,26 @@
+{
+	"name": "gatsby-starter-blog",
+	"description": "Starter Gatsby Blog",
+	"version": "1.0.0",
+	"author": "Canner",
+	"bugs": {
+		"url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
+	},
+	"dependencies": {
+		"canner-credential": "^0.1.8",
+		"canner-script": "^1.2.2"
+	},
+	"homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+	"keywords": [
+		"gatsby"
+	],
+	"license": "MIT",
+	"main": "n/a",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+	},
+	"scripts": {
+		"cms": "canner script:serve"
+	}
+}

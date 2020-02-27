@@ -1,0 +1,239 @@
+<mj-breakpoint width="600px" />
+<mj-font name="Oswald" href="https://fonts.googleapis.com/css?family=Oswald&display=swap" />
+
+<mj-attributes>
+  <mj-all margin="0" padding="0" />
+  <mj-text align="left" font-family="Arial, sans-serif" line-height="24px" />
+</mj-attributes>
+
+
+<mj-style inline="inline">
+  body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+  color: #4c76fe;
+  }
+
+  img {
+  color: #4d4d4d;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+  }
+
+  p,
+  ul {
+  color: #4d4d4d;
+  font-size: 16px;
+  margin-top: 0;
+  }
+
+  p,
+  ul,
+  .img img {
+  margin-bottom: 24px;
+  }
+
+  .header {
+  background-color: #001866;
+  background-image: url('https://i.imgur.com/9QZbGQx.png');
+  background-repeat: no-repeat;
+  border-top: 8px solid #fdc201;
+  text-align: left;
+  height: 112px;
+  }
+
+  .logo img {
+  color: #fff;
+  margin: 25px 0 0 16px;
+  }
+
+  .header__icon {
+  display: none !important;
+  }
+
+  .header__icon img {
+  color: #fff;
+  margin-top: 24px;
+  }
+
+  .wrapper {
+  background: #fff;
+  box-shadow:
+  0 14px 28px -4px rgba(0, 0, 0, .12),
+  0 8px 16px -4px rgba(0 ,0, 0, .13);
+  margin-bottom: 56px;
+  padding-bottom: 17px;
+  }
+
+  .section {
+  padding-right: 16px;
+  padding-left: 16px;
+  }
+
+  .title {
+  /* With Oswald the antialiased property is a bit too dramatic */
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #191919;
+  font-family: "Oswald";
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 22px 0 25px;
+  }
+
+  .table {
+  padding-bottom: 24px;
+  }
+
+  .table > table {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  }
+
+  .th {
+  color: #808080;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  }
+
+  .th.has-price-next {
+  padding-bottom: 4px;
+  }
+
+  .td {
+  color: #4d4d4d;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  }
+
+  .price {
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #191919;
+  font-family: "Oswald";
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  }
+
+  .btn {
+  box-shadow:
+  0 0 0 1px rgba(0, 0, 0, 0.24),
+  0 6px 10px -1px rgba(0, 0, 0, 0.06),
+  0 4px 6px -1px rgba(0, 0, 0, 0.12),
+  inset 0 -3px 8px 0 rgba(255, 255, 255, 0.32),
+  inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.70);
+  display: block;
+  display: inline-block;
+  font-family: "Oswald";
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.70);
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 16px;
+  user-select: none;
+  }
+
+  .btn:hover {
+  text-decoration: none;
+  }
+
+  .btn:focus {
+  outline: 0;
+  }
+
+  .btn:active {
+  box-shadow:
+  0 0 0 1px rgba(0, 0, 0, 0.24),
+  inset 0 3px 5px rgba(0, 0, 0, .12),
+  inset 0 0 0 1px rgba(255, 255, 255, 0.16);
+  }
+
+  .btn.is-highlight {
+  background-color: #fdc201;
+  background-image: linear-gradient(#fffbed, #f6dc8a 21%, #f5ce4d 49%, #ffc91a);
+  }
+
+  .btn.is-highlight:focus {
+  box-shadow:
+  0 0 0 1px rgba(0, 0, 0, 0.24),
+  inset 0 1px 0 rgba(255, 255, 255, 0.32),
+  0 0 0 4px #b3c5ff;
+  }
+
+  .btn.is-highlight:active {
+  background-image: none;
+  }
+
+  .small {
+  font-size: 12px;
+  }
+
+  .nobr {
+  white-space: nowrap;
+  }
+
+  .footer {
+  color: #484848;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  .pre-wrap {
+  white-space: pre-wrap;
+  }
+</mj-style>
+
+<mj-style>
+  @media only screen and (min-width: 601px) {
+    .wrapper {
+      margin-top: 48px !important;
+    }
+
+    .logo img {
+      margin: 25px 0 0 32px !important;
+    }
+
+    .header__icon {
+      display: block !important;
+    }
+
+    .section {
+      padding-right: 32px !important;
+      padding-left: 32px !important;
+    }
+
+    .title {
+      font-size: 40px !important;
+      line-height: 48px !important;
+      padding: 30px 0 25px !important;
+    }
+
+    .th.has-price-next,
+    .price {
+      text-align: right;
+    }
+  }
+</mj-style>

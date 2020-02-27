@@ -1,0 +1,14 @@
+{
+  "name": "s-full1",
+  "profile": "overtok-dev5",
+  "regions": [
+    "eu-central-1"
+  ],
+  "environment": {
+	"GRAPHQL_URL": "https://salsa-a.herokuapp.com/v1alpha1/graphql",
+	"EMAIL_FROM": "Salsa <info@do-salsa.tk>",
+	"EMAIL_API_KEY": "api:5c81dad5612b6270214310b678b8c754-49a2671e-2e7dac3c",
+	"EMAIL_URL": "https://api.mailgun.net/v3/do-salsa.tk/messages",
+	"API_BASE": "api"
+  }
+}

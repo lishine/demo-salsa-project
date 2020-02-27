@@ -1,0 +1,70 @@
+<mjml>
+
+  <mj-head>
+    <mj-title>Your Registration and Purchase Confirmation</mj-title>
+
+    <mj-include path="common/_head.mjml" />
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <mj-wrapper css-class="wrapper">
+
+      <!-- HEADER -->
+      <mj-section css-class="header">
+        <mj-column width="500px">
+          <mj-image css-class="logo" src="https://i.imgur.com/JLTDexC.png" align="left" width="152px" alt="Paradiso Online Logo" />
+        </mj-column>
+        <mj-column width="100px">
+          <mj-image css-class="header__icon" src="https://i.imgur.com/rvEaDvb.png" align="left" width="68px" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- BODY -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-text>
+            <h1 class="title">Your Registration and Purchase Confirmation</h1>
+          </mj-text>
+          <mj-text>
+            <p class="p"><strong>Hi, [[=it.name]]!</strong> Thanks for&nbsp;joining the&nbsp;Paradiso Online Academy. Here is&nbsp;your <span class="nobr">e-receipt</span>.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section table">
+        <mj-column width="50%">
+          <mj-text>
+            <p class="th">Course</p>
+            <p class="td"><strong>[[=it.fullCourseName]]</strong></p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="37%">
+          <mj-text>
+            <p class="th">Receipt #</p>
+            <p class="td">[[=it.receipt]]</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="13%">
+          <mj-text>
+            <p class="th has-price-next">Total</p>
+            <p class="price">[[=it.price]]</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section" padding-bottom="31px">
+        <mj-column>
+          <mj-text>
+            <p class="p">Start learning right now or when you are ready. In 8 weeks you will become a good dancer.</p>
+            <a class="btn is-highlight" href="[[=it.link]]">Start learning</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- FOOTER -->
+    <mj-include path="common/_footer.mjml" />
+
+  </mj-body>
+
+</mjml>

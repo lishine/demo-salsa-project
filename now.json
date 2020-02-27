@@ -1,0 +1,48 @@
+{
+    "version": 2,
+    "public": false,
+    "builds": [
+        {
+            "src": "./api/dist/routes/*/index.js",
+            "use": "@now/node@canary"
+        },
+        {
+            "src": "www/static/**/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "www/package.json",
+            "use": "@now/next@canary"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)/(.*)",
+            "dest": "/api/dist/routes/$1/index.js"
+        },
+        {
+            "src": "/static/(.*)",
+            "dest": "/www/static/$1"
+        },
+        {
+            "src": "/my-course/(.*)",
+            "dest": "/www/my-course?pageId=$1"
+        },
+        {
+            "src": "/blog/(.*)",
+            "dest": "/www/blog?id=$1"
+        },
+        {
+            "src": "/change-password/(.*)",
+            "dest": "/www/change-password?token=$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/www/$1"
+        }
+    ],
+    "regions": [
+        "bru1"
+    ],
+    "env": {}
+}

@@ -1,0 +1,5 @@
+export Register from './Register'
+export NewPassword from './NewPassword'
+export PasswordChanged from './PasswordChanged'
+export ContactUs from './ContactUs'
+export FreeLessons from './FreeLessons'

@@ -1,0 +1,6085 @@
+{
+	"data": {
+		"__schema": {
+			"types": [
+				{
+					"kind": "SCALAR",
+					"name": "Boolean",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "String",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Query",
+					"fields": [
+						{
+							"name": "_allDaysMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allDayysMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allM1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allM2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allMm1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allMm2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allNamesMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allOrganizationsMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa1MenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa1Submenu1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa1Submenu2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa2MenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa2Submenu1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPa2Submenu2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb1MenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb1Submenu1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb1Submenu2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb1Submenu3sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb2MenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb3MenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb3Submenu1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPb3Submenu2sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allPracticesMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allProgramsMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allSubmenu1sMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allWaMenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allWbMenusMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allWeekDaysMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_allWeeksMeta",
+							"type": {
+								"kind": "OBJECT",
+								"name": "CollectionMetadata",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_site",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Site",
+								"ofType": null
+							}
+						},
+						{
+							"name": "allDays",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "DayRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allDayys",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "DayyRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allM1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "M1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allM2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "M2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allMm1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Mm1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allMm2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Mm2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allNames",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "NameRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allOrganizations",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "OrganizationRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa1Menus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa1MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa1Submenu1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa1Submenu1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa1Submenu2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa1Submenu2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa2Menus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa2MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa2Submenu1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa2Submenu1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPa2Submenu2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pa2Submenu2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb1Menus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb1MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb1Submenu1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb1Submenu1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb1Submenu2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb1Submenu2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb1Submenu3s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb1Submenu3Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb2Menus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb2MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb3Menus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb3MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb3Submenu1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb3Submenu1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPb3Submenu2s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb3Submenu2Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPractices",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "PracticeRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allPrograms",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "ProgramRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allSubmenu1s",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Submenu1Record",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allWaMenus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WaMenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allWbMenus",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WbMenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allWeekDays",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WeekDayRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "allWeeks",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WeekRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "day",
+							"type": {
+								"kind": "OBJECT",
+								"name": "DayRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "dayy",
+							"type": {
+								"kind": "OBJECT",
+								"name": "DayyRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "landing",
+							"type": {
+								"kind": "OBJECT",
+								"name": "LandingRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "m1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "M1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "m2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "M2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "mm1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Mm1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "mm2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Mm2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "OBJECT",
+								"name": "NameRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "organization",
+							"type": {
+								"kind": "OBJECT",
+								"name": "OrganizationRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa1Menu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa1MenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa1Submenu1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa1Submenu1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa1Submenu2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa1Submenu2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa2Menu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa2MenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa2Submenu1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa2Submenu1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pa2Submenu2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pa2Submenu2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb1Menu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb1MenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb1Submenu1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb1Submenu1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb1Submenu2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb1Submenu2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb1Submenu3",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb1Submenu3Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb2Menu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb2MenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb3Menu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb3MenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb3Submenu1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb3Submenu1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "pb3Submenu2",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Pb3Submenu2Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "practice",
+							"type": {
+								"kind": "OBJECT",
+								"name": "PracticeRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "program",
+							"type": {
+								"kind": "OBJECT",
+								"name": "ProgramRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "submenu1",
+							"type": {
+								"kind": "OBJECT",
+								"name": "Submenu1Record",
+								"ofType": null
+							}
+						},
+						{
+							"name": "waMenu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "WaMenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "wbMenu",
+							"type": {
+								"kind": "OBJECT",
+								"name": "WbMenuRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "week",
+							"type": {
+								"kind": "OBJECT",
+								"name": "WeekRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "weekDay",
+							"type": {
+								"kind": "OBJECT",
+								"name": "WeekDayRecord",
+								"ofType": null
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb1MenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "ItemId",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "DateTime",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "ItemStatus",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Tag",
+					"fields": [
+						{
+							"name": "attributes",
+							"type": {
+								"kind": "SCALAR",
+								"name": "MetaTagAttributes",
+								"ofType": null
+							}
+						},
+						{
+							"name": "content",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "tag",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "MetaTagAttributes",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "SiteLocale",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb1MenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "IdFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "DateTimeFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "BooleanType",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "StatusFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "StringFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "StringMatchesFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb1MenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "IntType",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "CollectionMetadata",
+					"fields": [
+						{
+							"name": "count",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "IntType",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa2Submenu1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa2Submenu1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa2Submenu1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa2Submenu2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa2Submenu2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa2Submenu2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa2MenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa2MenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa2MenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa1Submenu2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa1Submenu2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa1Submenu2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa1Submenu1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa1Submenu1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa1Submenu1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pa1MenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pa1MenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pa1MenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb3Submenu2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb3Submenu2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb3Submenu2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb3Submenu1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb3Submenu1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb3Submenu1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb3MenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb3MenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb3MenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb2MenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb2MenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb2MenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb1Submenu3Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb1Submenu3ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb1Submenu3ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb1Submenu2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb1Submenu2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb1Submenu2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Pb1Submenu1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Pb1Submenu1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Pb1Submenu1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "WbMenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "WbMenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "WbMenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "WaMenuRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "WaMenuModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "WaMenuModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "DayRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "children",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "DayRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "parent",
+							"type": {
+								"kind": "OBJECT",
+								"name": "DayRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "position",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "IntType",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "DayModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "PositionFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "ParentFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "DayModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "WeekRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "after",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WaMenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "before",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WbMenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "children",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WeekRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "days",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "DayRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "parent",
+							"type": {
+								"kind": "OBJECT",
+								"name": "WeekRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "position",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "IntType",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "WeekModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "LinksFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "WeekModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "WeekDayRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "days",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "DayRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "WeekDayModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "WeekDayModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "ProgramRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "after1",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "ProgramModelAfter1Field",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "after2",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "ProgramModelAfter2Field",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "before1",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "ProgramModelBefore1Field",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "before2",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Pb2MenuRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "before3",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "ProgramModelBefore3Field",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "children",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "ProgramRecord",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "parent",
+							"type": {
+								"kind": "OBJECT",
+								"name": "ProgramRecord",
+								"ofType": null
+							}
+						},
+						{
+							"name": "position",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "IntType",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "slug",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "weeks",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "WeekRecord",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "UNION",
+					"name": "ProgramModelBefore1Field",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "Pb1Submenu1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pb1Submenu2Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pb1MenuRecord",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pb1Submenu3Record",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "UNION",
+					"name": "ProgramModelAfter2Field",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "Pa2Submenu2Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pa2Submenu1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pa2MenuRecord",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "UNION",
+					"name": "ProgramModelAfter1Field",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "Pa1Submenu1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pa1Submenu2Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pa1MenuRecord",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "UNION",
+					"name": "ProgramModelBefore3Field",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "Pb3Submenu2Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pb3Submenu1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Pb3MenuRecord",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "ProgramModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "ProgramModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Mm2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "mm",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Mm2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Mm2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Submenu1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Submenu1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Submenu1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "NameRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "NameModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "NameModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "PracticeRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "PracticeModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "PracticeModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "DayyRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "DayyModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "DayyModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "OrganizationRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "OrganizationModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "OrganizationModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Mm1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "Mm1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "Mm1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "M2Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "M2ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "M2ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "M1Record",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "INPUT_OBJECT",
+					"name": "M1ModelFilter",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "M1ModelOrderBy",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "LandingRecord",
+					"fields": [
+						{
+							"name": "_createdAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_modelApiKey",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_publicationScheduledAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_publishedAt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DateTime",
+								"ofType": null
+							}
+						},
+						{
+							"name": "_seoMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_status",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "ItemStatus",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "_updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "content",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "ItemId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "mm",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "LandingModelMmField",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "mmm",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "UNION",
+									"name": "LandingModelMmmField",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "updatedAt",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "DateTime",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "UNION",
+					"name": "LandingModelMmmField",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "Mm1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "Mm2Record",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "UNION",
+					"name": "LandingModelMmField",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": [
+						{
+							"kind": "OBJECT",
+							"name": "M1Record",
+							"ofType": null
+						},
+						{
+							"kind": "OBJECT",
+							"name": "M2Record",
+							"ofType": null
+						}
+					]
+				},
+				{
+					"kind": "OBJECT",
+					"name": "Site",
+					"fields": [
+						{
+							"name": "favicon",
+							"type": {
+								"kind": "OBJECT",
+								"name": "FileField",
+								"ofType": null
+							}
+						},
+						{
+							"name": "faviconMetaTags",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "Tag",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "globalSeo",
+							"type": {
+								"kind": "OBJECT",
+								"name": "GlobalSeoField",
+								"ofType": null
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "FileField",
+					"fields": [
+						{
+							"name": "alt",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "format",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "height",
+							"type": {
+								"kind": "SCALAR",
+								"name": "IntType",
+								"ofType": null
+							}
+						},
+						{
+							"name": "id",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "UploadId",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "size",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "IntType",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "url",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "width",
+							"type": {
+								"kind": "SCALAR",
+								"name": "IntType",
+								"ofType": null
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "UploadId",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "FaviconType",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "GlobalSeoField",
+					"fields": [
+						{
+							"name": "facebookPageUrl",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "fallbackSeo",
+							"type": {
+								"kind": "OBJECT",
+								"name": "SeoField",
+								"ofType": null
+							}
+						},
+						{
+							"name": "siteName",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "titleSuffix",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "twitterAccount",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "SeoField",
+					"fields": [
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "image",
+							"type": {
+								"kind": "OBJECT",
+								"name": "FileField",
+								"ofType": null
+							}
+						},
+						{
+							"name": "title",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "twitterCard",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__Schema",
+					"fields": [
+						{
+							"name": "directives",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "LIST",
+									"name": null,
+									"ofType": {
+										"kind": "NON_NULL",
+										"name": null,
+										"ofType": {
+											"kind": "OBJECT",
+											"name": "__Directive",
+											"ofType": null
+										}
+									}
+								}
+							}
+						},
+						{
+							"name": "mutationType",
+							"type": {
+								"kind": "OBJECT",
+								"name": "__Type",
+								"ofType": null
+							}
+						},
+						{
+							"name": "queryType",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "__Type",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "subscriptionType",
+							"type": {
+								"kind": "OBJECT",
+								"name": "__Type",
+								"ofType": null
+							}
+						},
+						{
+							"name": "types",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "LIST",
+									"name": null,
+									"ofType": {
+										"kind": "NON_NULL",
+										"name": null,
+										"ofType": {
+											"kind": "OBJECT",
+											"name": "__Type",
+											"ofType": null
+										}
+									}
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__Type",
+					"fields": [
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "docHints",
+							"type": {
+								"kind": "SCALAR",
+								"name": "DocHintsField",
+								"ofType": null
+							}
+						},
+						{
+							"name": "enumValues",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "OBJECT",
+										"name": "__EnumValue",
+										"ofType": null
+									}
+								}
+							}
+						},
+						{
+							"name": "fields",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "OBJECT",
+										"name": "__Field",
+										"ofType": null
+									}
+								}
+							}
+						},
+						{
+							"name": "inputFields",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "OBJECT",
+										"name": "__InputValue",
+										"ofType": null
+									}
+								}
+							}
+						},
+						{
+							"name": "interfaces",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "OBJECT",
+										"name": "__Type",
+										"ofType": null
+									}
+								}
+							}
+						},
+						{
+							"name": "kind",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "ENUM",
+									"name": "__TypeKind",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "ofType",
+							"type": {
+								"kind": "OBJECT",
+								"name": "__Type",
+								"ofType": null
+							}
+						},
+						{
+							"name": "possibleTypes",
+							"type": {
+								"kind": "LIST",
+								"name": null,
+								"ofType": {
+									"kind": "NON_NULL",
+									"name": null,
+									"ofType": {
+										"kind": "OBJECT",
+										"name": "__Type",
+										"ofType": null
+									}
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "SCALAR",
+					"name": "DocHintsField",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__Field",
+					"fields": [
+						{
+							"name": "args",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "LIST",
+									"name": null,
+									"ofType": {
+										"kind": "NON_NULL",
+										"name": null,
+										"ofType": {
+											"kind": "OBJECT",
+											"name": "__InputValue",
+											"ofType": null
+										}
+									}
+								}
+							}
+						},
+						{
+							"name": "deprecationReason",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "isDeprecated",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "Boolean",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "type",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "__Type",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__Directive",
+					"fields": [
+						{
+							"name": "args",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "LIST",
+									"name": null,
+									"ofType": {
+										"kind": "NON_NULL",
+										"name": null,
+										"ofType": {
+											"kind": "OBJECT",
+											"name": "__InputValue",
+											"ofType": null
+										}
+									}
+								}
+							}
+						},
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "locations",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "LIST",
+									"name": null,
+									"ofType": {
+										"kind": "NON_NULL",
+										"name": null,
+										"ofType": {
+											"kind": "ENUM",
+											"name": "__DirectiveLocation",
+											"ofType": null
+										}
+									}
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__EnumValue",
+					"fields": [
+						{
+							"name": "deprecationReason",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "isDeprecated",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "Boolean",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "OBJECT",
+					"name": "__InputValue",
+					"fields": [
+						{
+							"name": "defaultValue",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "description",
+							"type": {
+								"kind": "SCALAR",
+								"name": "String",
+								"ofType": null
+							}
+						},
+						{
+							"name": "name",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "SCALAR",
+									"name": "String",
+									"ofType": null
+								}
+							}
+						},
+						{
+							"name": "type",
+							"type": {
+								"kind": "NON_NULL",
+								"name": null,
+								"ofType": {
+									"kind": "OBJECT",
+									"name": "__Type",
+									"ofType": null
+								}
+							}
+						}
+					],
+					"interfaces": [],
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "__TypeKind",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				},
+				{
+					"kind": "ENUM",
+					"name": "__DirectiveLocation",
+					"fields": null,
+					"interfaces": null,
+					"possibleTypes": null
+				}
+			]
+		}
+	}
+}

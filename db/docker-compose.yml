@@ -1,0 +1,53 @@
+# psql -h localhost -U a -d a
+# adminer: http://localhost:8080
+# docker container ls -q
+
+version: '3.6'
+
+services:
+  postgres-demo1:
+    image: postgres:11.1-alpine
+    restart: always
+    ports:
+      - '5433:5432'
+    environment:
+      POSTGRES_USER: 'a'
+      POSTGRES_PASSWORD: 'a'
+      POSTGRES_DB: 'a'
+    volumes:
+      # - ./initdb:/docker-entrypoint-initdb.d/
+      - db_data_demo1:/var/lib/postgresql/data
+
+  graphql-engine-demo1:
+    image: hasura/graphql-engine:v1.0.0-beta.4.cli-migrations
+    volumes:
+      - ./migrations:/hasura-migrations
+    ports:
+      - '8091:8080'
+    depends_on:
+      - 'postgres-demo1'
+    restart: always
+    environment:
+      HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
+      HASURA_GRAPHQL_DATABASE_URL: postgres://a:a@postgres-demo1:5432/a
+      # HASURA_GRAPHQL_DATABASE_URL: postgres://bruusebevqdzof:77cc1cb23c92c4496a0d53164cff0b257235d4fb248cb03f1948a677090044bb@ec2-54-83-27-165.compute-1.amazonaws.com:5432/d8pqpn3bhtdk4h?sslmode=require
+      HASURA_GRAPHQL_ENABLE_CONSOLE: 'true' # set to "false" to disable console
+      ## uncomment next line to set an access key
+      # HASURA_GRAPHQL_ACCESS_KEY: mysecretaccesskey
+
+  # adminer:
+  #   image: adminer
+  #   ports:
+  #     - 8071:8080
+  # db:
+  #   image: mongo
+  #   environment:
+  #     - MONGO_INITDB_DATABASE=strapi
+  # ports:
+  #   - 27017:27017
+  # volumes:
+  #   - ./db:/data/db
+  # restart: always
+
+volumes:
+  db_data_demo1:
