@@ -15,7 +15,7 @@
         "form-data": "^2.3.3",
         "isomorphic-unfetch": "latest",
         "jwt-simple": "^0.5.1",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.19",
         "micro": "latest",
         "micro-cors": "^0.1.1",
         "micro-fork": "^0.1.1",
